@@ -31,22 +31,22 @@ public class Main {
 
       //aanmaken reizigers
       Reiziger r1 = new Reiziger();
-      r1.setReizigerID(17);
-      r1.setVoorl("RR");
-      r1.setAchternaam("Teutler");
+      r1.setReizigerID(94);
+      r1.setVoorl("PP");
+      r1.setAchternaam("De Tester");
       r1.setGbdatum(new SimpleDateFormat("dd-mm-yy").parse("06-12-97"));
 
       Reiziger r2 = new Reiziger();
-      r2.setReizigerID(18);
+      r2.setReizigerID(95);
       r2.setVoorl("BP");
       r2.setAchternaam("Deutler");
       r2.setGbdatum(new SimpleDateFormat("dd-mm-yy").parse("01-01-01"));
 
       Reiziger r3 = new Reiziger();
-      r2.setReizigerID(19);
-      r2.setVoorl("JJ");
-      r2.setAchternaam("Hitch");
-      r2.setGbdatum(new SimpleDateFormat("dd-mm-yy").parse("02-02-02"));
+      r3.setReizigerID(96);
+      r3.setVoorl("JJ");
+      r3.setAchternaam("Hitch");
+      r3.setGbdatum(new SimpleDateFormat("dd-mm-yy").parse("02-02-02"));
 
       //opslaan reizigers
       session.save(r1);
